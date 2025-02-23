@@ -5,7 +5,7 @@ class SinhVien {
     private String address;
     private String className;
     private DiemMonHoc diemMonHoc;
-    //hàm tạo 
+
     public SinhVien(String firstName, String lastName, String birthdate, String address, String className) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -15,7 +15,7 @@ class SinhVien {
         this.diemMonHoc = new DiemMonHoc();
     }
 
-    //hàm get
+
     public String getFirstName() {
         return firstName;
     }
@@ -59,4 +59,6 @@ class SinhVien {
                 firstName, lastName, birthdate, address, className,
                 diemMonHoc.tinhDiemTrungBinh(), getRank());
     }
+
 }
+
